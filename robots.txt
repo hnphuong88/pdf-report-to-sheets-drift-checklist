@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://hnphuong88.github.io/pdf-report-to-sheets-drift-checklist/sitemap.xml
