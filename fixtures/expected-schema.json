@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.2",
+  "report_family": "monthly_vendor_performance",
+  "required_fields": [
+    "report_period",
+    "vendor_id",
+    "gross_revenue",
+    "net_revenue",
+    "refunds",
+    "order_count"
+  ],
+  "checks": {
+    "period_format": "YYYY-MM",
+    "row_count_min": 5,
+    "row_count_max": 20,
+    "gross_revenue_month_over_month_max_change_pct": 35,
+    "net_revenue_required": true,
+    "duplicate_period_allowed": false
+  }
+}
